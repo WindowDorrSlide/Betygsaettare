@@ -5,10 +5,11 @@ public class loopar {
         int bas = 4;
         int resultat = bas;
         int i = 0;
-        while (i < 9)   {
+        do {
             resultat += bas;
             System.out.print(resultat+"\n");
             i++;
-        }
+        }   while (i < 9);
+
     }
 }
