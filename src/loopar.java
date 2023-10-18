@@ -4,9 +4,11 @@ public class loopar {
 
         int bas = 4;
         int resultat = bas;
-        for (int i = 0; i < 9; i++) {
+        int i = 0;
+        while (i < 9)   {
             resultat += bas;
             System.out.print(resultat+"\n");
+            i++;
         }
     }
 }
